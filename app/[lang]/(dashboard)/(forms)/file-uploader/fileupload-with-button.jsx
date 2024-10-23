@@ -21,8 +21,8 @@ const FileUploadWithButton = () => {
 
   // Handle file upload
   const handleUpload = () => {
-    if (!file) {
-      console.error('Eosf');
+    if (!file || file) {
+      //console.error('Eosf');
       return;
     }
     try {
