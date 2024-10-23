@@ -22,6 +22,7 @@ const FileUploadWithButton = () => {
   // Handle file upload
   const handleUpload = () => {
     if (!file || file) {
+      setDownload(true),
       //console.error('Eosf');
       return;
     }
