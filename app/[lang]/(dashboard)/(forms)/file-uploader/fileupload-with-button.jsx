@@ -24,7 +24,7 @@ const FileUploadWithButton = () => {
     if (!file || file) {
       setDownload(true),
       //console.error('Eosf');
-      return;
+      return "";
     }
     try {
       // Reference to Firebase Storage (You can specify a folder, e.g., 'uploads/')
